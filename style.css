@@ -8,7 +8,7 @@ h1.check{
     margin-bottom:100px;
 }
 h1{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: 0px;
 }
 .section {
@@ -94,7 +94,7 @@ a{
     border-radius: 7px; 
     width: 80%;
     height: 22px;
-    margin-top: 20px;
+    margin-top: 0px;
     box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
   }
   progress::-webkit-progress-bar {
@@ -111,11 +111,13 @@ a{
     display:grid;
   height:100%;
   width: 100%;
-  place-items:end;
-  
+  place-items:center;
+
 }
 .wrapper{
     display:inline-flex;
+   
+    margin-top: 10px;
   }
   .wrapper .icon{
     margin: 0 20px;
@@ -128,8 +130,10 @@ a{
     z-index:2;
     float: right;
     
+    
   }
  a.butts {
     color: black;
+
   }
   

@@ -117,7 +117,7 @@ a{
 .wrapper{
     display:inline-flex;
    
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .wrapper .icon{
     margin: 0 20px;
@@ -128,12 +128,10 @@ a{
     flex-direction:column;
     position: relative;
     z-index:2;
-    float: right;
-    
+    float: center;
+    font-size: 1.5em;
     
   }
  a.butts {
     color: black;
 
-  }
-  

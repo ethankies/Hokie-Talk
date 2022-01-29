@@ -119,7 +119,7 @@ a{
 }
 .wrapper{
     display:inline-flex;
-    
+    position: absolute;
    
     margin-top: 10px;
   }

@@ -140,3 +140,24 @@ a{
     color: black;
 
  }
+figure {
+  display: inline-block;
+  
+}
+
+img {
+  border: 4px solid #8B1F41;
+ 
+}
+figcaption {
+  text-align: center;
+}
+
+br {
+  color: #E87722;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}

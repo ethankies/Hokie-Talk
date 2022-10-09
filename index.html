@@ -143,8 +143,12 @@
        <p >Contact us: <a href="mailto:hokietalk1@gmail.com">hokietalk1@gmail.com</a></p>
     </div>
 
-<input type="button" value="dark" onclick="swapTheme()">
-<label>hi</label>
+<label id="theme-switch" class="switch" onchange="swapTheme()">
+  <input type="checkbox">
+  <span class="slider round">
+    <!-- <img src="assets/icons/sun-solid.svg"> -->
+  </span>
+</label>
 
 <script type='text/javascript' charset='utf-8' src='./app.js'></script>
 

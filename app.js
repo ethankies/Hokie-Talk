@@ -6,3 +6,5 @@ function swapTheme(){
         document.documentElement.setAttribute("data-theme", "light");
     }
 }
+
+document.getElementById('theme-switch').addEventListener('click', swapTheme());

@@ -98,12 +98,10 @@ a{
 
   /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-    background-color: var(--collapsible-background-color);
-    ;
-    
+    background-color: var(--collapsible-background-color);    
     /* color: #666666; */
     color: var(--primary-text-color);
-  
+    position: relative;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -111,6 +109,7 @@ a{
     text-align: left;
     outline: none;
     font-size:18px;
+    min-height: 55px;
    
   }
   
@@ -292,4 +291,22 @@ input:checked + .slider:before {
   height: 23px;
   width: 23px;
   /* z-index: 1; */
+}
+
+.left-button-div {
+  display: flex;
+  position: absolute;
+  left: 18px;
+  top: 0px;
+  height: 100%;
+  align-items: center;
+}
+
+.right-button-div {
+  display: flex;
+  position: absolute;
+  right: 18px;
+  top: 0px;
+  height: 100%;
+  align-items: center;
 }

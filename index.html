@@ -24,7 +24,7 @@
     <div id="content">
       
         <div id="header">
-            <h1 style="color: black">Hokie Talk</h1>
+            <h1>Hokie Talk</h1>
             
         </div>
        
@@ -39,7 +39,7 @@
             <!--<img src="assets/aziz.png" id="leftImg" width= "50%"> -->
             <h1>Listen to the latest episode</h1>
    
-            <div id='buzzsprout-small-player-limit-5'style=" margin-top: 55px;"></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/1818832.js?artist=&container_id=buzzsprout-small-player-limit-1&limit=1&player=small'></script>
+            <div id='buzzsprout-small-player-limit-5'style="margin-top: 55px;"></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/1818832.js?artist=&container_id=buzzsprout-small-player-limit-1&limit=1&player=small'></script>
            <!-- <div id="buzzsprout-player-9505554"></div><script src="https://www.buzzsprout.com/1818832/9505554-comparison-in-college.js?container_id=buzzsprout-player-9505554&player=small" type="text/javascript" charset="utf-8"></script>-->
             <h2 style="text-align: center; ">Listen anywhere</h2>
            <div id="social" >
@@ -143,6 +143,15 @@
        <p >Contact us: <a href="mailto:hokietalk1@gmail.com">hokietalk1@gmail.com</a></p>
     </div>
 
+<label id="theme-switch" class="switch" onchange="swapTheme()">
+  <input type="checkbox">
+  <span class="slider round">
+    <!-- <img src="assets/icons/sun-solid.svg"> -->
+  </span>
+</label>
+
+<script type='text/javascript' charset='utf-8' src='./app.js'></script>
+
 <script>
     var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -159,7 +168,6 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
-
 
 </body>
 </html>

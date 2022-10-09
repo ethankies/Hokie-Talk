@@ -20,17 +20,17 @@ function setTheme(){
 //also does a check to see if the local storage
 //even has a value. If it doesn't it creates one
 window.addEventListener('load', () => {
-    if (window.localStorage.getItem('light-mode')){
-        if(window.localStorage.getItem("light-mode") == 'dark'){
-            document.getElementById('theme-switch-checkbox').checked = true;
-        }
-        setTheme();
-    }
-    else{
-        window.localStorage.setItem("light-mode", 'light');
-    }
 })
-document.getElementById('theme-switch').addEventListener('click', swapTheme());
+if (window.localStorage.getItem('light-mode')){
+    if(window.localStorage.getItem("light-mode") == 'dark'){
+        document.getElementById('theme-switch-checkbox').checked = true;
+    }
+    setTheme();
+}
+else{
+    window.localStorage.setItem("light-mode", 'light');
+}
+// document.getElementById('theme-switch').addEventListener('click', swapTheme());
 
 const ep1 = {
     "title": "Hokies Vote Caucus",
@@ -54,7 +54,7 @@ function generateEpisodes(episode){
 
 }
 
-for(let i = 0; i < 10; i++){
+// for(let i = 0; i < 10; i++){
 
-    generateEpisodes(ep1);
-}
+//     generateEpisodes(ep1);
+// }

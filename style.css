@@ -314,8 +314,15 @@ input:checked + .slider:before {
 select {
   border: none;
   min-height: 50px;
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
 }
 
 select:hover {
   /* box-shadow: rgba(0, 0, 0, 0.443) 2px 2px; */
+}
+
+select:active {
+  border: none;
+  outline: none;
 }

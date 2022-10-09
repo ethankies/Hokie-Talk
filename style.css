@@ -142,8 +142,8 @@ a{
   }
 
 .icon:hover {
-  outline: solid rgba(0, 0, 0, 0.322) 3px;
-  box-shadow: rgba(0, 0, 0, 0.322) 1px 1px;
+  border: solid rgba(0, 0, 0, 0.322) 3px;
+  box-shadow: rgba(0, 0, 0, 0.322) 2px 1px;
 }
 
  a.butts {

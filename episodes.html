@@ -25,33 +25,16 @@
       
         <div id="header">
             <h1>Hokie Talk</h1>                        
-        </div>           
+        </div>                   
 
-      <div class="section" class="check">
+      <div id="episode-section" class="section" class="check">
         <h1>Listen to Any Episode</h1>
-        <button type="button" class="collapsible">
-            <div class="left-button-div">Episode 1</div>
-            <div class="right-button-div">10/09/2020</div>
-        </button>
-        <div class="faq_content">
-            <div id='buzzsprout-small-player-limit-5'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/1818832.js?artist=&container_id=buzzsprout-small-player-limit-1&limit=1&player=small'></script>
-            <p>This episode features discussion around blah blah blah</p>
-        </div>
-        <button type="button" class="collapsible">
-            <div class="left-button-div">Episode 1</div>
-            <div class="right-button-div">10/09/2020</div>
-        </button>
-        <div class="faq_content">
-            <div id='buzzsprout-small-player-limit-5'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/1818832.js?artist=&container_id=buzzsprout-small-player-limit-1&limit=1&player=small'></script>
-            <p>This episode features discussion around blah blah blah</p>
-        </div>
-        <button type="button" class="collapsible">
-            <div class="left-button-div">Episode 1</div>
-            <div class="right-button-div">10/09/2020</div>
-        </button>
-        <div class="faq_content">
-            <div id='buzzsprout-small-player-limit-5'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/1818832.js?artist=&container_id=buzzsprout-small-player-limit-1&limit=1&player=small'></script>
-            <p>This episode features discussion around blah blah blah</p>
+        <div class="drop-box">
+            Sort By:
+            <select>
+                <option>Newest -> Oldest</option>
+                <option>Oldest -> Newest</option>
+            </select>
         </div>
         <button type="button" class="collapsible">
             <div class="left-button-div">Episode 1</div>
@@ -63,7 +46,15 @@
         </div>
       </div>       
 
+      <label id="theme-switch" class="switch" onchange="swapTheme()">
+        <input type="checkbox">
+        <span class="slider round">
+          <!-- <img src="assets/icons/sun-solid.svg"> -->
+        </span>
+      </label>
 </body>
+<script src="./app.js"></script>
+
 <script>
     var coll = document.getElementsByClassName("collapsible");
 var i;

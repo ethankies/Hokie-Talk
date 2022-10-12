@@ -29,18 +29,4 @@ window.addEventListener('load', () => {
     else{
         window.localStorage.setItem("light-mode", 'light');
     }
-
-    if(window.localStorage.getItem('minimize-fundraising')){
-        if(window.localStorage.getItem('minimize-fundraising') == "true"){
-            document.getElementById('fundraising-section').setAttribute("display", "none");
-        }
-    }
-    else{
-        window.localStorage.setItem('minimize-fundraising', "false");
-    }
 })
-
-function collapse(element){
-    document.getElementById(element).setAttribute('display', 'none');
-    document.getElementById(element + '-minimized').setAttribute('display', 'block');
-}

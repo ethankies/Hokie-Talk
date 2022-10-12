@@ -297,23 +297,3 @@ input:checked + .slider:before {
 .fundraising-header {
   text-decoration: line-through;
 }
-
-.minimize-button {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.minimize-button:hover {
-  outline: var(--collapsible-hover-color) 2px solid;
-}
-
-.minimize-button div {
-  width: 24px;
-  height: 4px;
-  background-color: var(--collapsible-hover-color);
-  pointer-events: none;
-}

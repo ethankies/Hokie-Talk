@@ -79,15 +79,22 @@
             </div> 
         </div>
        
-        <div class="section">
+        <div class="section" style="position: relative">
+          <div class="minimize-button" onclick="collapse('fundraising-section')">
+            <div></div>
+          </div>
+          <div id="fundraising-section">
             <h1>Fundraising <span style="text-decoration: line-through; opacity: 50%;">progress</span> results</h1>
             <h2>Thank you to everyone who helped us reach our goal!</h2>
             <a href="https://ko-fi.com/hokietalk"><progress id="file" value="100" max="100">hi</progress></a>
-           
-              <h2 id="fundText" style="text-align: center; margin-bottom: 10px;">$<span id="num">600</span> out of $500</h2>
-              <h2 style="text-align: center; font-weight: 75; margin: 0;">raised!</h2>
-              <!-- <script src= "fundraise.js"></script> -->
-              
+            
+            <h2 id="fundText" style="text-align: center; margin-bottom: 10px;">$<span id="num">600</span> out of $500</h2>
+            <h2 style="text-align: center; font-weight: 75; margin: 0;">raised!</h2>
+            <!-- <script src= "fundraise.js"></script> -->
+          </div>
+          <div style="display:none" id="fundraising-section-minimized">
+            <h1>Fundraising <span style="text-decoration: line-through; opacity: 50%;">progress</span> results</h1>
+          </div>
            
             <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 <script>

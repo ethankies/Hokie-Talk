@@ -1,0 +1,31 @@
+.google-form {
+    width: 300px;
+}
+
+#social {
+    display: grid;
+    height:100%;
+    width: 400px;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.wrapper{
+    width: 85%;
+}
+
+.wrapper .icon{
+    cursor:pointer;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    position: relative;
+    z-index:2;
+    float: center;
+    font-size: 1.5em;
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+    border-radius: 50%;
+    border: solid rgba(0, 0, 0, 0) 3px;
+  }

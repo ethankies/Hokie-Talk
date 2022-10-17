@@ -160,11 +160,25 @@ progress::-webkit-progress-value {
 }
 
 #social {
-  background-color: green;
   width: 100%;
   /* height: 30px; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  place-items: center;
+}
+
+#social .icon {
+  background-color: red;
+  padding: 4px;
+  width: 32px;
+  height: 32px;
+}
+
+#social .icon a span i {
+  /* width: 64px;
+  height: 64px; */
+  font-size: 1.6em;
+  text-align: center;
 }
 
 /* #social {

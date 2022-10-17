@@ -1,3 +1,11 @@
 .google-form {
     width: 300px;
 }
+
+@media screen and (max-device-width:300px), screen and (max-width:300px) {
+    #social {
+        display: grid;
+        grid-template-columns: 1fr;        
+        place-items: center;
+      }
+}

@@ -168,61 +168,22 @@ progress::-webkit-progress-value {
 }
 
 #social .icon {
-  background-color: red;
+  display: flex;
   padding: 4px;
   width: 32px;
   height: 32px;
-}
-
-#social .icon a span i {
-  /* width: 64px;
-  height: 64px; */
-  font-size: 1.6em;
-  text-align: center;
-}
-
-/* #social {
-  display: grid;
-  height: 100%;
-  width: 100%;
-  place-items: center;
-
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  /* display:inline-flex;
-  position: absolute;
-  
-  margin-top: 10px; */
-/* }
-.wrapper .icon {
-  margin: 0 20px;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
-  position: relative;
-  z-index: 2;
-  float: center;
-  font-size: 1.5em;
-  height: 30px;
-  width: 30px;
-  padding: 2px;
+  align-items: center;
+  font-size: 1.6em;
   border-radius: 50%;
-  border: solid rgba(0, 0, 0, 0) 3px;
+  border: solid rgba(0, 0, 0, 0) 2px;
 }
 
-.icon:hover {
-  border: solid var(--icon-color) 3px;
+#social .icon:hover {
+  border: solid var(--icon-color) 2px;
   box-shadow: rgba(0, 0, 0, 0.322) 2px 1px;
-}
-
-.icon:hover span i {
   color: var(--icon-color);
-} */
+}
 
 #social a {
   color: var(--primary-text-color);

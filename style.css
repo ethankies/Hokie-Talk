@@ -160,6 +160,14 @@ progress::-webkit-progress-value {
 }
 
 #social {
+  background-color: green;
+  width: 100%;
+  /* height: 30px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* #social {
   display: grid;
   height: 100%;
   width: 100%;
@@ -174,8 +182,7 @@ progress::-webkit-progress-value {
   position: absolute;
   
   margin-top: 10px; */
-}
-
+/* }
 .wrapper .icon {
   margin: 0 20px;
   cursor: pointer;
@@ -201,9 +208,9 @@ progress::-webkit-progress-value {
 
 .icon:hover span i {
   color: var(--icon-color);
-}
+} */
 
-a.butts {
+#social a {
   color: var(--primary-text-color);
 
 }

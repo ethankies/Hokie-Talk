@@ -12,6 +12,7 @@
   --link-color: #326891;
   --icon-color: #E87722;
 }
+
 /* dark theme ??? */
 [data-theme='dark'] {
   --background-color: rgb(71, 71, 71);
@@ -29,154 +30,169 @@
 }
 
 #header {
-    font-size: 36px;
-  
+  font-size: 36px;
+
 }
-h1.check{
-    float: left;
-    color: red;
-    margin-bottom:100px;
+
+h1.check {
+  float: left;
+  color: red;
+  margin-bottom: 100px;
 }
-h1{
-    margin-bottom: 20px;
-    margin-top: 0px;
-    
+
+h1 {
+  margin-bottom: 20px;
+  margin-top: 0px;
+
 }
+
 .section {
-    padding-bottom: 48px;
-	margin-bottom: 48px;
+  padding-bottom: 48px;
+  margin-bottom: 48px;
   margin-top: 48px;
-	border-bottom: 1px solid var(--section-border-color);
+  border-bottom: 1px solid var(--section-border-color);
 }
+
 #content {
-    max-width: 950px;
-	margin: 0 auto;
-	padding: 64px 24px;
-	padding-top: 0;
-	margin-top: 55px;
-	overflow: auto;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 64px 24px;
+  padding-top: 0;
+  margin-top: 55px;
+  overflow: auto;
 }
-#leftImg{
-    
-    display: block;
+
+#leftImg {
+
+  display: block;
 
 
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    
-    margin-left: auto;
-    
-    
-    margin-right: auto;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+
+  margin-left: auto;
+
+
+  margin-right: auto;
 }
-body{
-    background-color: var(--background-color);
-    font-family: 'Libre Franklin', sans-serif;
-    color: var(--primary-text-color);
+
+body {
+  background-color: var(--background-color);
+  font-family: 'Libre Franklin', sans-serif;
+  color: var(--primary-text-color);
 }
 
 h1 {
   color: var(--heading-color);
 }
 
-h2{
-    font-weight: 50;
-    color: var(--secondary-text-color);
-   
+h2 {
+  font-weight: 50;
+  color: var(--secondary-text-color);
+
 }
-a{
-    color: var(--link-color);
+
+a {
+  color: var(--link-color);
 }
+
 #container {
-    margin: 20px;
-    width: 400px;
-    height: 8px;
-    position: relative;
-  }
+  margin: 20px;
+  width: 400px;
+  height: 8px;
+  position: relative;
+}
 
 
-  /* Style the button that is used to open and close the collapsible content */
+/* Style the button that is used to open and close the collapsible content */
 .collapsible {
-    background-color: var(--collapsible-background-color);
-    ;
-    
-    /* color: #666666; */
-    color: var(--primary-text-color);
-  
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size:18px;
-   
-  }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .collapsible:hover {
-    background-color: var(--collapsible-hover-color);
-    color: var(--secondary-text-color);
-  }
-  
-  /* Style the collapsible content. Note: hidden by default */
-  .faq_content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: var(--collapsible-background-color);
-    font-size: 15px;
+  background-color: var(--collapsible-background-color);
+  ;
 
-  }
+  /* color: #666666; */
+  color: var(--primary-text-color);
 
-  progress {
-    border-radius: 7px; 
-    width: 100%;
-    height: 22px;
-    margin-top: 20px;
-    box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
-  }
-  progress::-webkit-progress-bar {
-    background-color: var(--progress-background-color);
-    border-radius: 7px;
-  }
-  progress::-webkit-progress-value {
-    background-color: var(--progress-color);
-    border-radius: 7px;
-   
-  }
-
-#social{
-    display:grid;
-  height:100%;
+  cursor: pointer;
+  padding: 18px;
   width: 100%;
-  place-items:center;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
 
 }
-.wrapper{
-    display:inline-flex;
-    position: absolute;
-   
-    margin-top: 10px;
-  }
-  .wrapper .icon{
-    margin: 0 20px;
-    cursor:pointer;
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-    position: relative;
-    z-index:2;
-    float: center;
-    font-size: 1.5em;
-    height: 30px;
-    width: 30px;
-    padding: 2px;
-    border-radius: 50%;
-    border: solid rgba(0, 0, 0, 0) 3px;
-  }
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+  background-color: var(--collapsible-hover-color);
+  color: var(--secondary-text-color);
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.faq_content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: var(--collapsible-background-color);
+  font-size: 15px;
+
+}
+
+progress {
+  border-radius: 7px;
+  width: 100%;
+  height: 22px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+progress::-webkit-progress-bar {
+  background-color: var(--progress-background-color);
+  border-radius: 7px;
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--progress-color);
+  border-radius: 7px;
+
+}
+
+#social {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* display:inline-flex;
+  position: absolute;
+  
+  margin-top: 10px; */
+}
+
+.wrapper .icon {
+  margin: 0 20px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  float: center;
+  font-size: 1.5em;
+  height: 30px;
+  width: 30px;
+  padding: 2px;
+  border-radius: 50%;
+  border: solid rgba(0, 0, 0, 0) 3px;
+}
 
 .icon:hover {
   border: solid var(--icon-color) 3px;
@@ -187,19 +203,21 @@ a{
   color: var(--icon-color);
 }
 
- a.butts {
-    color: var(--primary-text-color);
+a.butts {
+  color: var(--primary-text-color);
 
- }
+}
+
 figure {
   display: inline-block;
-  
+
 }
 
 img {
   border: 4px solid var(--image-border-color);
- 
+
 }
+
 figcaption {
   text-align: center;
 }
@@ -256,15 +274,15 @@ iframe {
   transition: .4s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: var(--progress-color);
 }
 
-input:focus + .slider {
+input:focus+.slider {
   box-shadow: 0 0 1px #2196F3;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);

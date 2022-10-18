@@ -1,5 +1,6 @@
 .google-form {
     width: 300px;
+    
 }
 
 @media screen and (max-device-width:300px), screen and (max-width:300px) {
@@ -8,4 +9,13 @@
         grid-template-columns: 1fr;        
         place-items: center;
       }
+
+   
+}
+
+@media screen and (min-device-width:300px), screen and (min-width:300px) {
+    /* Hide form on mobile */
+    .google-form {
+       display: none;
+   }
 }

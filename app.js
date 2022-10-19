@@ -27,6 +27,7 @@ window.addEventListener('load', () => {
         setTheme();
     }
     else{
-        window.localStorage.setItem("light-mode", 'light');
+        window.localStorage.setItem("light-mode", 'dark');
+        
     }
 })

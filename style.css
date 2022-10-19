@@ -1,4 +1,20 @@
+/* dark theme ??? */
 :root {
+  --background-color: rgb(71, 71, 71);
+  --section-border-color: #747474;
+  --collapsible-background-color: #2e2e2e;
+  --collapsible-hover-color: #747474;
+  --image-border-color: #8B1F41;
+  --progress-color: #8B1F41;
+  --progress-background-color: #E87722;
+  --heading-color: #E87722;
+  --primary-text-color: #b9b9b9;
+  --secondary-text-color: rgb(255, 255, 255);
+  --link-color: var(--heading-color);
+  --icon-color: #E87722;
+}
+
+[data-theme='light'] {
   --background-color: white;
   --section-border-color: black;
   --collapsible-background-color: #e9e9e9;
@@ -13,21 +29,6 @@
   --icon-color: #E87722;
 }
 
-/* dark theme ??? */
-[data-theme='dark'] {
-  --background-color: rgb(71, 71, 71);
-  --section-border-color: #747474;
-  --collapsible-background-color: #2e2e2e;
-  --collapsible-hover-color: #747474;
-  --image-border-color: #8B1F41;
-  --progress-color: #8B1F41;
-  --progress-background-color: #E87722;
-  --heading-color: #E87722;
-  --primary-text-color: #b9b9b9;
-  --secondary-text-color: rgb(255, 255, 255);
-  --link-color: var(--heading-color);
-  --icon-color: #E87722;
-}
 
 #header {
   font-size: 36px;
